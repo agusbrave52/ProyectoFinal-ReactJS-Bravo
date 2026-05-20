@@ -1,0 +1,42 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9c9c9c;
+    color: white;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.brand {
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.brand img {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.categories {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.categories li {
+    cursor: pointer;
+}
+
+.categories li:hover {
+    color: #4b4b4b;
+}
