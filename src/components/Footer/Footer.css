@@ -1,0 +1,22 @@
+.footer {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto 1.5rem;
+  padding: 1.2rem 1.5rem;
+  border: 1px solid rgba(211, 207, 208, 0.7);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.42);
+  box-shadow: 0 16px 30px rgba(139, 128, 135, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.footer-text {
+  margin: 0;
+  color: var(--color-mauve);
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.footer-text span {
+  color: var(--color-indigo);
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.cart-item-info { flex: 1; }
+.cart-item-remove {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: #c0392b;
+  font-size: 1.1rem;
+}

@@ -1,12 +1,16 @@
 import NavBar from '../components/NavBar/NavBar';
+import { Outlet } from 'react-router';
+import Footer from '../components/Footer/Footer';
 
-const LayoutApp = ({ children }) => {
+const LayoutApp = () => {
   return (
     <>
       <NavBar />
-      <main style={{ marginTop: '70px', padding: '20px' }}>
-        {children}
+      <main className="page-shell">
+        {/* Outlet renderiza la pagina hija definida en router jsx */}
+        <Outlet />
       </main>
+      <Footer />
     </>
   );
 };

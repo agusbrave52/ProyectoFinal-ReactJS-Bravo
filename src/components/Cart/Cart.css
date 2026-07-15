@@ -1,0 +1,16 @@
+.cart {
+  max-width: 900px;
+  margin: 6rem auto 2rem;
+  padding: 0 1rem;
+}
+.cart-summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.cart-total { font-weight: 700; font-size: 1.2rem; }
+.empty-cart {
+  text-align: center;
+  margin-top: 8rem;
+}

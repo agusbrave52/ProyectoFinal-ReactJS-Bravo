@@ -1,0 +1,10 @@
+.checkout {
+  max-width: 600px;
+  margin: 6rem auto 2rem;
+  padding: 0 1rem;
+}
+.checkout-success,
+.checkout-empty {
+  text-align: center;
+  margin-top: 8rem;
+}

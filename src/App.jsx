@@ -1,14 +1,16 @@
 import './App.css';
-import LayoutApp from './layouts/LayoutApp';
-import HomePage from './pages/HomePage';
+import { RouterProvider } from 'react-router';
+import { router } from './router';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { CartProvider } from './context/CartContext.jsx';
 
 function App() {
   return (
-    <div>
-      <LayoutApp>
-        <HomePage />
-      </LayoutApp>
-    </div>
+    <CartProvider>
+      <RouterProvider router={router} />
+      <ToastContainer />
+    </CartProvider>
   );
 }
 
